@@ -1,0 +1,8 @@
+[Unit]
+Description=Kolibri Server
+
+[Socket]
+ListenStream=18009
+
+[Install]
+WantedBy=sockets.target
