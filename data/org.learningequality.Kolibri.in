@@ -1,0 +1,2 @@
+[Environment]
+KOLIBRI_SHARED_INSTANCE=localhost:@KOLIBRI_PORT@

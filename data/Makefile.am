@@ -19,9 +19,11 @@ EXTRA_DIST = \
 	eos-kolibri-system-helper.service \
 	eos-kolibri-system-helper.socket \
 	eos-kolibri-system-helper.conf \
+	org.learningequality.Kolibri \
 	$(NULL)
 
 CLEANFILES = \
 	eos-kolibri-system-helper.service \
 	eos-kolibri-system-helper.socket \
+	org.learningequality.Kolibri \
 	$(NULL)
