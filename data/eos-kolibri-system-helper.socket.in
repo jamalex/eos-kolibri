@@ -2,7 +2,7 @@
 Description=Kolibri Server
 
 [Socket]
-ListenStream=18009
+ListenStream=@KOLIBRI_PORT@
 
 [Install]
 WantedBy=sockets.target

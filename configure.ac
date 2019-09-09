@@ -22,6 +22,12 @@ AS_IF([test "x$systemdsystemunitdir" = x],
 	[AC_MSG_ERROR([no path for systemd unit directory])])
 AC_SUBST([systemdsystemunitdir])
 
+AC_ARG_VAR(KOLIBRI_PORT, port number for system Kolibri instance (default: 18009))
+
+if test -z "$KOLIBRI_PORT"; then
+	KOLIBRI_PORT=18009
+fi
+
 AC_CONFIG_FILES([
 Makefile
 data/Makefile
