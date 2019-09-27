@@ -7,6 +7,5 @@ Type=simple
 ExecStart=@bindir@/flatpak run --no-desktop --command=kolibri org.learningequality.Kolibri start --foreground --port=@KOLIBRI_PORT@
 Environment=KOLIBRI_RUN_MODE=flatpaktest
 User=kolibri
-
 PrivateTmp=yes
 Restart=on-failure

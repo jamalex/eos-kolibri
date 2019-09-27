@@ -3,6 +3,7 @@ Description=Kolibri Server
 
 [Socket]
 ListenStream=@KOLIBRI_PORT@
+Accept=no
 
 [Install]
 WantedBy=sockets.target
